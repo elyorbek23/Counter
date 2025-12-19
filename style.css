@@ -1,0 +1,25 @@
+body{
+    background: linear-gradient(71.17deg, #FEAF00 19.35%, #F8D442 90.12%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.boss{
+    width: 520px;
+    height: 270px;
+    background-color: white;
+    border-radius: 25px;
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button:hover{
+    transform: scale(1.03);
+    
+}
+button:active{
+    transform: scale(1);
+}
